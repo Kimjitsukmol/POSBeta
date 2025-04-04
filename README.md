@@ -1,2 +1,2 @@
 # POSBeta
-POS Beta ver1.0
+POS Beta ver1.1
