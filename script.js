@@ -181,18 +181,6 @@ window.addEventListener("keydown", function (e) {
   }
 });
 
-//flatpickr("#calendar", {
-  //dateFormat: "dd/MM/yyyy",
-  //locale: "th",
-  //onChange: function (selectedDates) {
-    //const summary = JSON.parse(localStorage.getItem("posSummary")) || {};
-    //const selected = new Date(selectedDates[0]);
-    //const key = selected.toLocaleDateString("th-TH");
-    //const value = summary[key] || 0;
-    //document.getElementById("selectedTotal").textContent = `ยอดรวม: ฿${value.price.toFixed(2)} (${value.qty} ชิ้น)`;
-  //}
-//});
-
 function findProduct() {
   const code = document.getElementById("productCode").value.trim();
   document.getElementById("productCode").value = "";
@@ -298,7 +286,7 @@ function calculateChange() {
     } else {
       speak(`รับเงินไม่พอ`);
     }
-  }, 700);
+  }, 600);
 }
 
 function clearAll() {
